@@ -1,0 +1,193 @@
+header .carousel .carousel-indicators {
+  right: unset;
+  margin-top: 10px;
+}
+
+header .carousel .carousel-indicators li {
+  text-indent: 0;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+header .carousel .carousel-indicators .active {
+  background-color: #ffb320;
+}
+
+header .carousel .slidercontentback {
+  position: relative;
+}
+
+header .carousel .slidercontentback .slidercontentmain {
+  position: absolute;
+  top: 50%;
+}
+
+header .carousel .slidercontentback .slidercontentmain .title_main {
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+}
+
+header
+  .carousel
+  .slidercontentback
+  .slidercontentmain
+  .title_main
+  .title_main_color {
+  color: #ffb320;
+}
+
+header .carousel .slidercontentback .slidercontentmain .content_description {
+  width: 40%;
+  color: white;
+}
+
+header .carousel .slidercontentback .slidercontentmain .read_more_btn {
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffb320;
+  color: #131313;
+  width: auto;
+  border: 2px solid transparent;
+  transition: all 0.5s;
+}
+
+header .carousel .slidercontentback .slidercontentmain .read_more_btn:hover {
+  background-color: #131313;
+  border: 2px solid #ffb320;
+  color: #ffb320;
+}
+
+header .carousel .slidercontentback .slidercontentmain .read_more_btn:focus {
+  box-shadow: none;
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  header .carousel .slidercontentback .slidercontentmain {
+    top: 30%;
+  }
+
+  header .carousel .carousel-indicators {
+    left: -4%;
+    bottom: 10%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  header .carousel .slidercontentback .slidercontentmain {
+    top: 25%;
+  }
+
+  header .carousel .carousel-indicators {
+    left: -10%;
+    bottom: 4%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1023px) {
+  header .carousel .slidercontentback .slidercontentmain {
+    top: 25%;
+  }
+
+  header .carousel .carousel-indicators {
+    left: -12%;
+    bottom: 4%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header .carousel .slidercontentback .slidercontentmain .title_main {
+    font-size: 40px;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .content_description {
+    width: 70%;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain {
+    top: 23%;
+  }
+
+  header .carousel .carousel-indicators {
+    left: -10%;
+    bottom: 2%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  header .carousel .slidercontentback .slidercontentmain {
+    top: 20%;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .title_main {
+    font-size: 30px;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .content_description {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  header .carousel .carousel-indicators {
+    left: -10%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+  header .carousel .slidercontentback .slidercontentmain {
+    top: 30%;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .title_main {
+    font-size: 30px;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .content_description {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  header .carousel .carousel-indicators {
+    left: 13%;
+    bottom: 5%;
+  }
+}
+
+@media (max-width: 479px) {
+  header .carousel .slidercontentback .slidercontentmain {
+    top: 30%;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .content_description {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  header .carousel .carousel-indicators {
+    left: 13%;
+    bottom: 5%;
+  }
+  header .carousel .slidercontentback .slidercontentmain {
+    display: none;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .title_main {
+    font-size: 20px;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .content_description {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  header .carousel .slidercontentback .slidercontentmain .read_more_btn {
+    font-size: 12px;
+  }
+
+  header .carousel .carousel-indicators {
+    display: none;
+  }
+}
