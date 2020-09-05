@@ -10,19 +10,18 @@ import Footer from "../Footer/Footer";
 class Menu extends Component {
   render() {
     return (
-      <div>
-        <BrowserRouter>
+      <BrowserRouter>
+        <div>
           <Navbar />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/home" component={Home} />
             <Route path="/games" component={RecentGames} />
             <Route path="/tournament" component={Tournament} />
             <Route path="/review" component={Review} />
           </Switch>
           <Footer />
-        </BrowserRouter>
-      </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }

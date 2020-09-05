@@ -32,7 +32,7 @@ class Navbar extends Component {
             >
               <ul className="nav navbar-nav">
                 <li className="nav-item mr-lg-3 mr-md-1">
-                  <Link to="/home" className="nav-link">
+                  <Link to="/" className="nav-link">
                     Home
                   </Link>
                 </li>
