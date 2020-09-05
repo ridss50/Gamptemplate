@@ -15,7 +15,7 @@ class Menu extends Component {
           <Navbar />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/home" exact component={Home} />
+            <Route path="/home" component={Home} />
             <Route path="/games" component={RecentGames} />
             <Route path="/tournament" component={Tournament} />
             <Route path="/review" component={Review} />
